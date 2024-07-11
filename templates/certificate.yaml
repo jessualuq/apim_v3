@@ -1,17 +1,17 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: wso2-ca
-  namespace: wso2-des
+  name: test-ca
+  namespace: test
 spec:
   isCA: true
-  commonName: wso2-ca
+  commonName: test-ca
   subject:
     organizations:
       - ACME Inc.
     organizationalUnits:
       - Widgets
-  secretName: wso2-ca-secret
+  secretName: test-ca-secret
   privateKey:
     algorithm: ECDSA
     size: 256
@@ -19,9 +19,3 @@ spec:
     name: selfsigned-issuer
     kind: Issuer
     group: cert-manager.io
-  dnsNames:
-    - am.wso2.com
-    - gateway.am.wso2.com
-    - management.mi.wso2.com
-    - websocket.am.wso2.com
-    - websub.am.wso2.com
