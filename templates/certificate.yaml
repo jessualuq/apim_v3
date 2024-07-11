@@ -22,4 +22,6 @@ spec:
   dnsNames:
     - am.wso2.com
     - gateway.am.wso2.com
-    - management.am.wso2.com
+    - management.mi.wso2.com
+    - websocket.am.wso2.com
+    - websub.am.wso2.com
