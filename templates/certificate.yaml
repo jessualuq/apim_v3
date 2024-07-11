@@ -7,7 +7,8 @@ spec:
   secretName: secret-wso2
   issuerRef:
     name: selfsigned-issuer
-    kind: ClusterIssuer
+    kind: Issuer
+    group: cert-manager.io
   dnsNames:
     - am.wso2.com
     - gateway.am.wso2.com
