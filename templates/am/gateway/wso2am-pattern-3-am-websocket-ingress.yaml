@@ -30,6 +30,7 @@ spec:
   tls:
   - hosts:
     - {{ .Values.wso2.deployment.am.websocket.ingress.hostname }}
+    secretName: wso2-ca-secret
   rules:
   - host: {{ .Values.wso2.deployment.am.websocket.ingress.hostname }}
     http:
