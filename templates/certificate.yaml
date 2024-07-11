@@ -9,4 +9,6 @@ spec:
     name: selfsigned-issuer
     kind: ClusterIssuer
   dnsNames:
-    - *.wso2.com
+    - am.wso2.com
+    - gateway.am.wso2.com
+    - management.am.wso2.com
