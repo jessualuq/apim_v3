@@ -2,7 +2,7 @@ apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
   name: ws02-server
-  namespace: wso2
+  namespace: wso2-des
 spec:
   secretName: wso2-server-tls
   isCA: false
