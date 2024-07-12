@@ -12,6 +12,11 @@ spec:
   dnsNames:
   - "wso2-server.wso2-des.svc.cluster.local"
   - "wso2-server"
+  - "am.wso2.com"
+  - "gateway.am.wso2.com"
+  - "management.mi.wso2.com"
+  - "websocket.am.wso2.com"
+  - "websub.am.wso2.com"
   issuerRef:
     name: wso2-ca-issuer
 ---
@@ -29,5 +34,10 @@ spec:
   dnsNames:
   - "wso2-client.wso2-des.svc.cluster.local"
   - "wso2-client"
+  - "am.wso2.com"
+  - "gateway.am.wso2.com"
+  - "management.mi.wso2.com"
+  - "websocket.am.wso2.com"
+  - "websub.am.wso2.com"
   issuerRef:
     name: wso2-ca-issuer
