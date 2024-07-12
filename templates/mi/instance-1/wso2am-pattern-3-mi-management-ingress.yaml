@@ -28,7 +28,7 @@ spec:
   tls:
     - hosts:
         - {{ .Values.wso2.deployment.mi.ingress.management.hostname  | quote }}
-      secretName: wso2-ca-secret
+      secretName: mgt-ca-secret
   rules:
     - host: {{ .Values.wso2.deployment.mi.ingress.management.hostname | quote }}
       http:
